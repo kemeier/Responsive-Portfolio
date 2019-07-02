@@ -1,0 +1,181 @@
+
+*   {
+    box-sizing: border-box;
+}
+body    {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    width: 960px;
+    margin: auto;
+    overflow: auto;
+}
+
+#head  {
+    color:  #ffffff;
+    background-color: #4aaaa5;    
+    width: 200px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    margin-top: 0;
+
+}
+table   {
+    float: right;
+    width: 250px;
+    margin-top: -40px;
+
+}
+th  {
+    width: 70px;
+    text-align: right;
+    color: #cccccc;
+
+}
+#about  {
+    border-right: solid .5px gray;
+    text-align: center;
+    border-color: #cccccc;
+}
+#portfolio  {
+    border-right: solid .5px gray;
+    text-align: center;
+    width: 75px;
+    border-color: #cccccc;
+}
+#contact1    {
+    text-align: center;
+}
+.main-content   {
+    position: relative;
+}
+#background-pattern {
+    border-bottom-width: 5px;
+    border-bottom-color: #4aaaa5;
+    border-bottom-style: solid;
+    border-top-width: 1px;
+    border-top-color: #cccccc;
+    border-top-style: solid;
+}
+#about-me   {
+    width: 960px;
+    margin: auto;
+    background-color: white;
+    margin-top: -450px;
+    position: absolute;
+    right: 0px;
+    left: 2px;
+    padding: 20px;
+    border: #dddddd 1px solid;
+}
+
+#main   {
+    color: #4aaaa5;
+    background-color: white;
+    padding-top: 0px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+p   {
+    background-color: white;
+    border-top-width: 2px;
+    border-top-color: #dddddd;
+    border-top-style: solid;
+    padding-top: 20px;
+    line-height: 1.75;
+    font-size: 115%; 
+}
+#kelly-image {
+    float: left;
+    margin-right: 25px;
+}
+#footer  {
+    text-align: center;
+    background-color: #666666;
+    height: 40px;
+    width: 100%;
+    margin-top: 0;
+    padding-top: 20px;
+    color: #cccccc;
+}
+.contact   {
+    width: 600px;
+    margin: auto;
+    background-color: white;
+    margin-top: -450px;
+    position: absolute;
+    right: 0px;
+    left: 2px;
+    padding: 20px;
+    border: #dddddd 1px solid;
+}
+#form   {
+    text-align: left;
+    background-color: white;
+    border-top-width: 2px;
+    border-top-color: #dddddd;
+    border-top-style: solid;
+    padding-top: 15px;
+}
+#main-contact   {
+    color: #4aaaa5;
+    background-color: white;
+    text-align: left;
+    margin-bottom: 15px;
+}
+#submit {
+    color:  #ffffff;
+    background-color: #4aaaa5;
+    width: 80px;
+    height: 25px;
+}
+#message    {
+    height: 100px;
+    width: 560px;
+}
+.name-email {
+    width: 560px;
+}
+.header2    {
+    width: 600px;
+    margin: auto;
+    overflow: auto;
+}
+#main-portfolio   {
+    color: #4aaaa5;
+    background-color: white;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-left: -5px;
+    border-bottom: solid 1px  #cccccc;
+    padding-bottom: 13px;
+}
+h6  {
+    color: white;
+    background-color: #4aaaa5;
+    text-align: center;
+    width: 25%;
+    height: 30px;
+    padding-top: 9px;
+    margin: 0;   
+
+}
+#table1 {
+    width: 575px;
+    margin-top: 10px;
+    height: 275px;
+    padding: 10px;
+}
+td  {
+    width: 30%;
+}
+.label  {
+    width:60%;
+    position: relative;
+    top: -25px;
+}
+
+
+
