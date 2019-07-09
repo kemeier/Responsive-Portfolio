@@ -177,5 +177,27 @@ td  {
     top: -25px;
 }
 
+@media screen and (max-width: 980 px)   {
+    .contact{
+        margin-top: -350px;
+    }
+    #table1 {
+        width: 650px;
+    }
+}
 
+@media screen and (max-width: 768 px)   {
+    #table1 {
+        width: 400px;
+    }
+}
 
+@media screen and (max-width: 640 px)   {
+    .header {
+        position: static;
+    }
+    #footer {
+        position: sticky;
+    }
+    
+}
