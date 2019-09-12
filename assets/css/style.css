@@ -31,6 +31,7 @@ body    {
     padding-bottom: 10px;
     margin-bottom: 0;
     margin-top: 0;
+    text-shadow: 2px 2px lightgray;
    
 
 }
@@ -50,17 +51,28 @@ th  {
     text-align: center;
 }
 
+#about:hover{
+    font-size: larger;
+}
+
 #portfolio  {
 
     text-align: center;
     width: 75px;
-  
 }
+
+#portfolio:hover    {
+    font-size: larger;
+}
+
 #contact1    {
     text-align: center;
     padding-right: -30px;
 }
 
+#contact:hover {
+    font-size: larger;
+}
 
 .main-content   {
     position: relative;
@@ -225,6 +237,7 @@ td  {
 
 .picture-text:hover {
     color: blue;
+    font-size: larger;
 }
 
 
