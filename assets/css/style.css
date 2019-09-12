@@ -18,7 +18,7 @@ body    {
     margin: auto;
     overflow: auto;
     padding-left: -400px;
-    margin-left: 110px;
+    margin-left: 115px;
     
 }
 
@@ -44,23 +44,24 @@ th  {
     width: 70px;
     text-align: right;
     color: #cccccc;
-
+    
 }
 #about  {
-    border-right: solid .5px gray;
     text-align: center;
-    border-color: #cccccc;
 }
+
 #portfolio  {
-    border-right: solid .5px gray;
+
     text-align: center;
     width: 75px;
-    border-color: #cccccc;
+  
 }
 #contact1    {
     text-align: center;
     padding-right: -30px;
 }
+
+
 .main-content   {
     position: relative;
     padding-top: 80px;
@@ -121,7 +122,10 @@ p   {
     font-size: 20px;
     padding-top: 0px;
     margin-bottom: 10px;
+}
 
+#foot:hover {
+    color: lightskyblue;
 }
 .contact   {
     color: black;
@@ -148,6 +152,16 @@ p   {
     text-align: left;
     margin-bottom: 15px;
 }
+
+.name-email {
+    border-radius: 5px;
+}
+
+#message {
+    border-radius: 5px;
+    border-color: rgb(186, 183, 183);
+}
+
 #submit {
     border-radius: 10px;
     color:  #ffffff;
@@ -155,6 +169,10 @@ p   {
     width: 80px;
     height: 25px  
 }
+#submit:hover {
+    background-color: #ffcc00;
+    color: black;
+    }
 
 #message    {
     height: 100px;
@@ -200,8 +218,19 @@ td  {
 }
 
 .picture-text {
-    color: white;
+    color: darkmagenta;
+    background-color: lightgray;
+    border: solid black 1px;
+}
 
+.picture-text:hover {
+    color: blue;
+}
+
+
+.img    {
+    border: solid black 1px;
+    border-radius: 8px;
 }
 
 @media screen and (max-width: 980 px)   {
