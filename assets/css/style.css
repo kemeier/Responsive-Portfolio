@@ -79,7 +79,7 @@ th  {
     width: 960px;
     margin: auto;
     background-color: #d67e48;
-    margin-top: -450px;
+    /*margin-top: -450px;*/
     position: absolute;
     right: 0px;
     left: 2px;
@@ -97,9 +97,6 @@ th  {
 }
 p   {
     background-color: #d67e48;
-    border-top-width: 2px;
-    border-top-color: #dddddd;
-    border-top-style: solid;
     padding-top: 20px;
     line-height: 1.75;
     font-size: 115%; 
@@ -110,7 +107,6 @@ p   {
 }
 #footer  {
     text-align: center;
-
     height: 40px;
     width: 100%;
     margin-top: 0;
@@ -128,36 +124,38 @@ p   {
 
 }
 .contact   {
+    color: black;
     width: 600px;
     margin: auto;
-    background-color: white;
-    margin-top: -450px;
+    background-color: #d67e48;
+    margin-top: -20px;
     position: absolute;
     right: 0px;
     left: 2px;
     padding: 20px;
-    border: #dddddd 1px solid;
+    border: 2px solid black;
+    border-radius: 30px;
 }
 #form   {
     text-align: left;
-    background-color: white;
-    border-top-width: 2px;
-    border-top-color: #dddddd;
-    border-top-style: solid;
+    background-color: #d67e48;
     padding-top: 15px;
+    
 }
 #main-contact   {
-    color: #4aaaa5;
-    background-color: white;
+    color: black;
+    background-color: #d67e48;
     text-align: left;
     margin-bottom: 15px;
 }
 #submit {
+    border-radius: 10px;
     color:  #ffffff;
-    background-color: #4aaaa5;
+    background-color: rgb(29, 76, 146);
     width: 80px;
-    height: 25px;
+    height: 25px  
 }
+
 #message    {
     height: 100px;
     width: 560px;
@@ -171,17 +169,14 @@ p   {
     overflow: auto;
 } 
 #main-portfolio   {
-    color: #4aaaa5;
-    background-color: white;
+    background-color: #d67e48;
     text-align: left;
     margin-bottom: 15px;
     margin-left: -5px;
-    border-bottom: solid 1px  #cccccc;
     padding-bottom: 13px;
 }
 h6  {
     color: white;
-
     text-align: center;
     width: 25%;
     height: 30px;
