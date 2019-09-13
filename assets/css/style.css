@@ -158,6 +158,14 @@ p   {
     padding-top: 15px;
     
 }
+
+#email  {
+    color: darkmagenta;
+}
+
+#email:hover  {
+    color: blue;
+}
 #main-contact   {
     color: black;
     background-color: #d67e48;
