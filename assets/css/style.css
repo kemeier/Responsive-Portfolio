@@ -237,16 +237,32 @@ td  {
     top: -25px;
 }
 
+#github   {
+    margin-left: 0px;
+    padding-left: 9px;
+    border-left: 0px;
+    padding-bottom: -200px;
+}
+
 .picture-text {
     color: darkmagenta;
     background-color: lightgray;
     border: solid black 1px;
 }
 
+.picture-text2 {
+    color: blue;
+    background-color: lightgray;
+    border: solid black 1px;
+    
+    font-size: 12px;
+}
+
 .picture-text:hover {
     color: blue;
     font-size: larger;
 }
+
 
 
 .img    {
